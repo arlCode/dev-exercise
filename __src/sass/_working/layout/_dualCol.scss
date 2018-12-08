@@ -1,0 +1,10 @@
+.dualCol {
+    &:first-child {
+        padding-right: 40px;
+        @media only screen and (max-width: $screen-lg) {
+            padding: 0;
+            font-size: 1.3rem;
+            line-height: 2.4rem;
+        }
+    }
+}

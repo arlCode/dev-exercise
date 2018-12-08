@@ -1,0 +1,13 @@
+.c-tabView {
+    &__container {
+        width: 1000px;
+        img {
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width: $screen-lg) {
+            width: 100%;
+            font-size: 1.3rem;
+            line-height: 2.4rem;
+        }
+    }
+}

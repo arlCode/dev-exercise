@@ -1,0 +1,12 @@
+//Layout View Styling.
+.c-tabView {
+    &__singleCol, .dualCol, .triCol {
+        margin-bottom: 20px;
+    }
+    &__dualCol, &__triCol {
+        display: flex;
+        @media only screen and (max-width: $screen-lg) {
+            display: block;
+        }
+    }
+}

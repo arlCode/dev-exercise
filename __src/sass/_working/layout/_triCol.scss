@@ -1,0 +1,11 @@
+.triCol {
+    padding-right: 40px;
+    &:last-child {
+        padding-right: 0;
+    }
+    @media only screen and (max-width: $screen-lg) {
+        padding: 0;
+        font-size: 1.3rem; // Should resize the font-size for mobile devices or the elderly can't read it.
+        line-height: 2.4rem; // Spacing the line-height prevents eye strain and user fatigue.
+    }
+}
